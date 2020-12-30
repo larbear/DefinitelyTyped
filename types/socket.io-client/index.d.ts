@@ -103,7 +103,7 @@ declare namespace SocketIOClient {
          * @param fn The function to remove, or null if we want to remove all functions
          * @return This Emitter
          */
-        off( event: string, fn?: Function ):Emitter;
+        off( event?: string, fn?: Function ):Emitter;
 
         /**
          * @see off( event, fn )
